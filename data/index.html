@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Led wifi control Websocket</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="screen-a">
+    <div class="head">
+      <h1>LED WIFI CONTROL</h1>
+    </div>
+    <div class="content">
+      <div class="item">
+        <span class="item-title">LED1</span>
+        <span class="slider">
+          <!-- some slider CSS magic -->
+          <input type="range" min="0" max="255" value="0" class="slider" id="led1" />
+        </span>
+        <span id="output-led1" class="slider-value">0</span>
+      </div>
+      <div class="item">
+        <span class="item-title">LED2</span>
+        <span class="slider">
+          <!-- some slider CSS magic -->
+          <input type="range" min="0" max="255" value="0" class="slider" id="led2" />
+        </span>
+        <span id="output-led2" class="slider-value">0</span>
+      </div>
+      <div class="item">
+        <span class="item-title">LED3</span>
+        <span class="slider">
+          <!-- some slider CSS magic -->
+          <input type="range" min="0" max="255" value="0" class="slider" id="led3" />
+        </span>
+        <span id="output-led3" class="slider-value">0</span>
+      </div>
+    </div>
+  </div>
+  <div class="screen-b">
+    <div class="head">
+      <h1>POTENTIO READING</h1>
+    </div>
+    <div class="content">
+      <div class="item">
+        <span class="item-title">Potentio 1:</span>
+        <span class="pot">0</span>
+      </div>
+      <div class="item">
+        <span class="item-title">Potentio 2:</span>
+        <span class="pot">0</span>
+      </div>
+      <div class="item">
+        <span class="item-title">Potentio 3:</span>
+        <span class="pot">0</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
